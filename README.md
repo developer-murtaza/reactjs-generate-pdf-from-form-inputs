@@ -1,8 +1,9 @@
-# React + Vite
+# ReactJS - Generate PDF from Form Inputs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have created a demo form which accept Name as an input and a dropdown where the user can select the stream i.e. M Tech or B Tech. And once the user clicks on Submit a PDF gets generated which is to be saved on the local machine.
 
-Currently, two official plugins are available:
+This PDF is saved by the stream name, and it contains details like the Name, Course name, Date and Fee structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For generating the PDF I have used [jspdf-autotable] package (https://www.npmjs.com/package/jspdf-autotable). You may visit this site and check out for more details in terms of additional configuration.
+
+Download the zip or clone the repo on your local and run npm install to install latest dependencies and run npm run dev to see it on the browser.
